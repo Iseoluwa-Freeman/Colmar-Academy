@@ -1,0 +1,497 @@
+
+
+nav {
+   margin-left: 2%;
+   height: 64px;
+   display: flex;
+   font-family: poppins;
+   margin-right: 0px;
+}
+
+#one {
+    font-weight: 50;
+}
+
+#first {
+    display: inline-flex;
+    height: 32px;
+}
+
+body {
+    font-family: poppins;
+    overflow-x: hidden;
+}
+
+.center {
+    display: inline-flex;
+}
+
+.top {
+    width: 50vw;
+    display: inline-flex;
+    flex-shrink: 3;
+    text-decoration: none;
+    list-style: none;
+     height: 64px;
+     position: absolute;
+     right: 1%;
+     top: -1%;
+     flex-wrap: nowrap;
+     align-items: center;
+     text-align: center;
+}
+
+#li {
+    padding-left: 3%;
+        padding-right: 3%;
+   float: right;
+}
+
+#bar {
+    display: flex;
+   margin-left: 12%;
+    margin-right: 12%;
+    list-style-type: none;
+}
+
+.hidden {
+    width: 100%;
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+    position: absolute;
+    top: 3%;
+}
+
+.gray {
+    background-color: rgb(185, 184, 184);
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+#banner {
+    padding-left: 3%;
+    width: 60%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-self: center;
+    padding-right: 2%;
+}
+
+#banner:hover{
+
+}
+
+.title {
+    display: flex;
+    float: right;
+    padding-right: 1%;
+    flex-wrap: wrap;
+    width: 35%;
+    justify-content: center;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#story {
+   font-size: 20px;
+   font-weight: 100;
+   text-align: center;
+}
+
+#btn {
+    float: none;
+    display: block;
+    background-color: rgb(55, 55, 56);
+    font-size: 20px;
+    color: white;
+    height: 30px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+
+#main {
+    width: 50%;
+    padding-top: 3%;
+
+}
+
+#left, #left-2 {
+    width: 100%;
+}
+
+#left-2 {
+    padding-right: 2%;
+}
+
+
+#wrap {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.right {
+    display: flex;
+        float: right;
+        flex-wrap: wrap;
+        width: 40%;
+        height: 70%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-top: 5%;
+}
+
+.white {
+    display: block;
+    width: 100%;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+
+#align {
+    text-align: center;
+}
+
+.line {
+    display: inline;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    
+}
+
+#photo {
+    padding-top: 3%;
+    width: 15%;
+}
+
+.individual {
+    height: 20%;
+}
+
+.images {
+    position: absolute;
+        right: 5%;
+    display: flex;
+    width: 10vw;
+    flex-direction: column;
+ 
+   justify-content: center;
+}
+
+.line-2, .line-3 {
+    display: inline;
+    width: 100%;
+}
+
+.line-2,
+.line, .line-3 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+#main {
+   padding-right: 5%;
+    width: 50vw;
+    height: auto;
+    object-fit: cover;
+}
+
+.gray-2 {
+    background-color: rgb(185, 184, 184);
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+        gap: 5%;
+            padding-bottom: 5%;
+            justify-items: center;
+}
+.next {
+    text-align: center;
+}
+
+#square {
+    height: auto;
+   width: 70%;
+
+}
+
+.rows {
+    display: none;
+}
+
+
+#video {
+width: 60%;
+aspect-ratio: 1.5;
+padding-left: 3%;
+display: flex;
+align-items: center;
+height: 100%;
+}
+
+.section {
+    display: flex;
+}
+
+.right {
+    justify-content: flex-start;
+    display: flex;
+    grid-template-columns: 50%;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#moved {
+    width: 25%;
+    padding-left: 0%;
+}
+
+#lorem {
+    text-align: center;
+    width: 40%;
+}
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+.part {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 915px) {
+.gray {
+height: 40vh;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 650px) {
+    .able {
+        width: 100%;
+        display:flex;
+        justify-content: center;
+    }
+
+ #lorem{
+    width: 100%;
+}
+
+#btn {
+width: 40%;
+}
+
+#moved {
+    width: 70%;
+}
+
+#video {
+    display: none;
+}
+
+    #block {
+            background-color: rgb(185, 184, 184);
+            padding: 0%;
+        }
+
+    .rows {
+        visibility: visible;
+    }
+
+    .rows {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6, 1fr);
+        padding-top: 0%;
+        text-align: center;
+        gap: 0px;
+        }
+
+    .next {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+#main {
+    display: none;
+}
+
+.top {
+    display: none;
+}
+
+#li {
+    padding-right: 0px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#side {
+    visibility: hidden;
+}
+
+#banner {
+    width: 95%;
+}
+
+.gray {
+    height: 30%;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    flex-shrink: 3;
+    width: 100%;
+    font-size: 25px;
+}
+
+.btn {
+   
+}
+
+#wrap {
+    text-align: center;
+    width: 100%;
+}
+
+#main {
+width: 100%;
+}
+
+#left-2 {
+    width: 100%;
+    text-align: center;
+}
+
+.line-2, .line {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.line-2 {
+    font-size: 12px
+}
+
+#lorem {
+    font-size: 25px;
+}
+
+}
+
+@media screen and (min-width: 651px) {
+    .hidden {
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .title {
+        font-size: 15px;
+    }
+
+    #story {
+        font-size: 15px;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1570px) {
+    .title {
+        width: 25%;
+        padding-left: 4%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .title {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    #lorem {
+        font-size: 12px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
